@@ -72,3 +72,6 @@ if (finRdvHeures < finJourneeHeures) {
 } else {
   console.log("RDV impossible");
 }
+
+// ETAPE 3: Affichage de l'heure de fin de RDV
+console.log("Le RDV se terminera à" + finRdvHeures + "h" + finRdvMinutes);
